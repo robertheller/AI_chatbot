@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello there! How can I help you?",
+                "Hi, I am BakeBot. How may I be of service?",
+                "Hello, I am BakeBot. How may I help you?"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "I need help",
+                "I need assistance",
+                "What can you do for me",
+                "why are you uselful",
+                "show list of features",
+                "list of options"
+            ],
+            "responses": [
+                "Here is a list of what I can do for you:\n-Determine best recipe based on ingredients.\n-Show baking directions.\n-List required ingredients.\n-Common best practices and advice for baking."
+            ]
+        },
+        {
+            "tag": "bestrecipe-chocolatechipcookies",
+            "patterns": [
+                "What is the best recipe for my ingredients which are chocolate chips",
+                "My ingredients are chocolate chips",
+                "What can I bake or make with chocolate chips",
+                "I have chocolate chips"
+            ],
+            "responses": [
+                "Based on your ingredients, it seems like CHOCOLATE CHIP COOKIES is the best recipe for you!"
+            ]
+        },
+        {
+            "tag": "bestrecipe-peanutbuttercookies",
+            "patterns": [
+                "What is the best recipe for my ingredients which are peanut butter, butterscotch chips",
+                "My ingredients are peanut butter, butterscotch chips",
+                "What can I bake or make with peanut butter, butterscotch chips",
+                "I have peanut butter"
+            ],
+            "responses": [
+                "Based on your ingredients, it seems like PEANUT BUTTER COOKIES is the best recipe for you!"
+            ]
+        },
+        {
+            "tag": "bestrecipe-bananabread",
+            "patterns": [
+                "What is the best recipe for my ingredients which are banana",
+                "My ingredients are banana",
+                "What can I bake or make with banana",
+                "I have bananas"
+            ],
+            "responses": [
+                "Based on your ingredients, it seems like BANANA BREAD is the best recipe for you!"
+            ]
+        },
+        {
+            "tag": "directions-chocolatechipcookies",
+            "patterns": [
+                "I want to bake chocolate chip cookies.",
+                "Give me directions for chocolate chip cookies.",
+                "Instructions for chocolate chip cookies.",
+                "Steps to bake chocolate chip cookies.",
+                "What are the directions for baking chocolate chips?",
+                "How to make chocolate chip cookies"
+            ],
+            "responses": [
+                "Directions for CHOCOLATE CHIP COOKIES:\n-Preheat oven to 360 degrees F.\n-Combine dry ingredients such as flour, baking soda, and salt.\n-Next, combine melted margerine, sugar, eggs, and vanilla.\n-Add and stir in chocolate chips and dry ingredients.\n-Place dough on baking sheet and put in oven. Bake for 10 minutes."
+            ]
+        },
+        {
+            "tag": "directions-peanutbuttercookies",
+            "patterns": [
+                "I want to make peanut butter cookies.",
+                "Give me directions for peanut butter cookies.",
+                "Instructions for peanut butter cookies.",
+                "Steps to bake peanut butter cookies.",
+                "What are the directions for baking peanut butter cookies?",
+                "How to make peanut butter cookies"
+            ],
+            "responses": [
+                "Directions for PEANUT BUTTER COOKIES:\n-Preheat oven to 350 degrees F.\n-Combine dry ingredients such as flour, baking soda, and salt.\n-Next, combine melted margerine, sugar, eggs, and vanilla.\n-Add peanut butter and dry ingredients.\n-Place dough on baking sheet and use a fork to flatten.\n-Put in oven and bake for 10 minutes."
+            ]
+        },
+        {
+            "tag": "directions-bananabread",
+            "patterns": [
+                "I want to make banana bread.",
+                "Give me directions for banana bread.",
+                "Instructions for banana bread.",
+                "Steps to bake banana bread.",
+                "What are the directions for baking chocolate chips?",
+                "How to make banana bread"
+                
+            ],
+            "responses": [
+                "Directions for BANANA BREAD:\n-Preheat oven to 350 degrees F.\n-Mash bananas, and add in melted butter.\n-Next, combine ingredients such as eggs, sugar, baking soda, salt, and vanilla. Add in flour.\n-After mixing, pour into a baking container.\n-Put in oven and bake for 10 minutes."
+            ]
+        },
+        {
+            "tag": "reqingredients-chocolatechipcookies",
+            "patterns": [
+                "Required ingredients for chocolate chip cookies.",
+                "What do I need to make chocolate chip cookies?",
+                "List of required ingredients for chocolate chip cookies.",
+                "How much do I need to bake chocolate chip cookies"
+            ],
+            "responses": [
+                "Ingredients for CHOCOLATE CHIP COOKIES:\n-2 cups chocolate chips\n-3 cups flour\n-1/2 tsp salt\n-1 tsp baking soda\n-1 cup melted butter\n-2 tsp vanilla extract\n-2 eggs\n-1 cup sugar"
+            ]
+        },
+        {
+            "tag": "reqingredients-peanutbuttercookies",
+            "patterns": [
+                "Required ingredients for peanut butter cookies.",
+                "What do I need to make peanut butter cookies?",
+                "List of required ingredients for peanut butter cookies.",
+                "How much do I need to bake peanut butter cookies"
+            ],
+            "responses": [
+                "Ingredients for PEANUT BUTTER COOKIES:\n-1/2 cup peanut butter\n-2 cups flour\n-1/2 tsp salt\n-1 tsp baking soda\n-1/2 cup melted butter\n-1 cup brown sugar\n-2 eggs"
+            ]
+        },
+        {
+            "tag": "reqingredients-bananabread",
+            "patterns": [
+                "Required ingredients for banana bread.",
+                "What do I need to make banana bread?",
+                "List of required ingredients for banana bread",
+                "How much do I need to bake banana bread"
+            ],
+            "responses": [
+                "Ingredients for BANANA BREAD:\n-2 1/2 cups mashed bananas\n-2 cups flour\n-1/2 tsp salt\n-1 tsp baking soda\n-1/2 cup melted butter\n-3/4 cup brown sugar\n-2 eggs"
+            ]
+        },
+        {
+            "tag": "commonbestpractices",
+            "patterns": [
+                "What are some best practices for baking",
+                "Common practices",
+                "How to be a good baker.",
+                "Any advice for baking",
+                "Do you have any advice for me?",
+                "I need some advice.",
+                "What is another best practice",
+                "Other advice"
+            ],
+            "responses": [
+                "Always separate the dry ingredients from the wet ingredients when beginning the baking process.",
+                "You must always believe you are a good baker.... because you ARE a good baker. The food will benefit from this.",
+                "Make sure to wear oven mitts before removing the baking try from the oven.",
+                "Always preheat your oven beforehand. This way, it will be ready as soon as you are done preparing your ingredients.",
+                "It's good practice to have a kitchen timer handy. Your phone works too."
+            ]
+        }
+    ]
+}
